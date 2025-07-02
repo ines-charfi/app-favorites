@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - La musique qui vous correspond</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="spotify.css">
+    <link href="https://fonts.googleapis.com/css2?family=Circular:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body class="spotify-theme">
+    <!-- Bulles de fond -->
+    <div class="bubbles">
+        <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
+        <div class="bubble"></div><div class="bubble"></div><div class="bubble"></div>
+    </div>
+
+    <header class="app-header">
+        <div class="app-header-container">
+            <img src="../apps/images/spotify-removebg-preview.png" alt="Spotify Logo" class="app-logo-large animate__animated animate__fadeInDown">
+            <div class="app-header-text">
+                
+                <p class="app-tagline animate__animated animate__fadeIn animate__delay-1s">La musique qui vous correspond</p>
+                <div class="app-actions animate__animated animate__fadeIn animate__delay-2s">
+                    <a href="https://apps.apple.com/app/spotify-music/id324684580" class="download-btn">
+                        <i class="fab fa-apple"></i> App Store
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.spotify.music" class="download-btn">
+                        <i class="fab fa-google-play"></i> Google Play
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="app-nav">
+        <ul>
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="notion.html">Notion</a></li>
+            <li><a href="spotify.html" class="active">Spotify</a></li>
+            <li><a href="duolingo.html">Duolingo</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="overview" class="section-overview animate__animated animate__fadeIn">
+            <div class="overview-content">
+                <h2>Votre musique, partout</h2>
+                <p>Spotify vous donne un accès instantané à des millions de chansons - des classiques aux nouveautés. Écoutez les bons morceaux, où que vous soyez.</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">70M+</div>
+                        <div class="stat-label">Titres</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">4M+</div>
+                        <div class="stat-label">Podcasts</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">500K+</div>
+                        <div class="stat-label">Playlists</div>
+                    </div>
+                </div>
+            </div>
+            <div class="overview-image">
+                <img src="../apps/images/spotify-removebg-preview.png" alt="Spotify Interface" class="hero-image floating" loading="lazy">
+            </div>
+        </section>
+
+        <section id="features" class="section-features">
+            <h2>Pourquoi choisir Spotify ?</h2>
+            <div class="features-grid">
+                <div class="feature-card animate__animated animate__fadeInUp">
+                    <div class="feature-icon"><i class="fas fa-music"></i></div>
+                    <h3>Musique illimitée</h3>
+                    <p>Accédez à plus de 70 millions de titres et découvrez de nouveaux artistes tous les jours.</p>
+                </div>
+                <div class="feature-card animate__animated animate__fadeInUp animate__delay-1s">
+                    <div class="feature-icon"><i class="fas fa-headphones"></i></div>
+                    <h3>Écoute hors ligne</h3>
+                    <p>Téléchargez vos morceaux préférés et écoutez-les même sans connexion internet.</p>
+                </div>
+                <div class="feature-card animate__animated animate__fadeInUp animate__delay-2s">
+                    <div class="feature-icon"><i class="fas fa-random"></i></div>
+                    <h3>Playlists intelligentes</h3>
+                    <p>Découvrez des playlists personnalisées qui évoluent avec vos goûts musicaux.</p>
+                </div>
+                <div class="feature-card animate__animated animate__fadeInUp">
+                    <div class="feature-icon"><i class="fas fa-podcast"></i></div>
+                    <h3>Podcasts variés</h3>
+                    <p>Accédez à des millions de podcasts sur tous les sujets qui vous intéressent.</p>
+                </div>
+                <div class="feature-card animate__animated animate__fadeInUp animate__delay-1s">
+                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <h3>Écoute collaborative</h3>
+                    <p>Créez des playlists avec vos amis et écoutez la même musique en temps réel.</p>
+                </div>
+                <div class="feature-card animate__animated animate__fadeInUp animate__delay-2s">
+                    <div class="feature-icon"><i class="fas fa-robot"></i></div>
+                    <h3>Assistants vocaux</h3>
+                    <p>Contrôlez Spotify avec votre voix via Google Assistant, Siri ou Alexa.</p>
+                </div>
+            </div>
+        </section>
+
+       
+    </main>
+
+    <footer class="app-footer">
+        <div class="footer-grid">
+            <div class="footer-logo">
+                <img src="../apps/images/spotify-removebg-preview.png" alt="Spotify Logo" loading="lazy">
+                <p>La musique pour tous.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Ressources</h3>
+                <a href="#">Assistance</a>
+                <a href="#">Blog</a>
+                <a href="#">Développeurs</a>
+                <a href="#">Apps</a>
+            </div>
+            <div class="footer-links">
+                <h3>Entreprise</h3>
+                <a href="#">À propos</a>
+                <a href="#">Carrières</a>
+                <a href="#">For the Record</a>
+            </div>
+            <div class="footer-social">
+                <h3>Communauté</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2023 Spotify AB. Tous droits réservés.</p>
+            <div class="legal-links">
+                <a href="#">Légal</a>
+                <a href="#">Confidentialité</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
